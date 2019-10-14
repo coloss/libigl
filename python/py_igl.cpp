@@ -35,7 +35,7 @@
 #include <igl/compute_frame_field_bisectors.h>
 #include <igl/cotmatrix.h>
 #include <igl/covariance_scatter_matrix.h>
-#include <igl/cross_field_missmatch.h>
+#include <igl/cross_field_mismatch.h>
 #include <igl/cut_mesh_from_singularities.h>
 #include <igl/decimate.h>
 #include <igl/deform_skeleton.h>
@@ -47,6 +47,7 @@
 #include <igl/edge_topology.h>
 #include <igl/eigs.h>
 #include <igl/exact_geodesic.h>
+#include <igl/heat_geodesics.h>
 #include <igl/find_cross_field_singularities.h>
 #include <igl/fit_rotations.h>
 #include <igl/floor.h>
@@ -135,7 +136,7 @@ void python_export_igl(py::module &m)
 #include "py_igl/py_compute_frame_field_bisectors.cpp"
 #include "py_igl/py_cotmatrix.cpp"
 #include "py_igl/py_covariance_scatter_matrix.cpp"
-#include "py_igl/py_cross_field_missmatch.cpp"
+#include "py_igl/py_cross_field_mismatch.cpp"
 #include "py_igl/py_cut_mesh_from_singularities.cpp"
 #include "py_igl/py_decimate.cpp"
 #include "py_igl/py_deform_skeleton.cpp"
@@ -147,6 +148,7 @@ void python_export_igl(py::module &m)
 #include "py_igl/py_edge_topology.cpp"
 #include "py_igl/py_eigs.cpp"
 #include "py_igl/py_exact_geodesic.cpp"
+#include "py_igl/py_heat_geodesics.cpp"
 #include "py_igl/py_find_cross_field_singularities.cpp"
 #include "py_igl/py_fit_rotations.cpp"
 #include "py_igl/py_floor.cpp"
