@@ -48,6 +48,7 @@
 #include <igl/eigs.h>
 #include <igl/exact_geodesic.h>
 #include <igl/heat_geodesics.h>
+#include <igl/facet_components.h>
 #include <igl/find_cross_field_singularities.h>
 #include <igl/fit_rotations.h>
 #include <igl/floor.h>
@@ -100,6 +101,7 @@
 #include <igl/unique.h>
 #include <igl/unproject_onto_mesh.h>
 #include <igl/upsample.h>
+#include <igl/vertex_components.h>
 #include <igl/winding_number.h>
 #include <igl/writeMESH.h>
 #include <igl/writeOBJ.h>
@@ -149,6 +151,7 @@ void python_export_igl(py::module &m)
 #include "py_igl/py_eigs.cpp"
 #include "py_igl/py_exact_geodesic.cpp"
 #include "py_igl/py_heat_geodesics.cpp"
+#include "py_igl/py_facet_components.cpp"
 #include "py_igl/py_find_cross_field_singularities.cpp"
 #include "py_igl/py_fit_rotations.cpp"
 #include "py_igl/py_floor.cpp"
@@ -201,6 +204,7 @@ void python_export_igl(py::module &m)
 #include "py_igl/py_unique.cpp"
 #include "py_igl/py_unproject_onto_mesh.cpp"
 #include "py_igl/py_upsample.cpp"
+#include "py_igl/py_vertex_components.cpp"
 #include "py_igl/py_winding_number.cpp"
 #include "py_igl/py_writeMESH.cpp"
 #include "py_igl/py_writeOBJ.cpp"
